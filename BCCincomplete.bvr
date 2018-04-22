@@ -1,4 +1,4 @@
-//Simple Cubic
+//BCC structure lattice
 //Axes
 xAxis=vectorDraw
 xAxis.setTail=0,0,0
@@ -37,6 +37,7 @@ txt3.text=X-Axis
 txt3.color=red
 txt3.position=4.7,0,0
 
+//first lattice
 sph0=sphere
 sph0.position=0,0,0
 sph0.scale=1,1,1
@@ -78,32 +79,153 @@ sph7.position=0,4,4
 sph7.scale=1,1,1
 sph7.color=blue
 
-bcc1=sphere
-bcc1.position=2,2,2
-bcc1.scale=3,3,3
-bcc1.color=yellow
 
-bcc2=sphere
-bcc2.position=6,2,2
-bcc2.scale=3,3,3
-bcc2.color=yellow
+   
+
+//Second lattice
 
 sph8=sphere
-sph8.position=8,0,0
+sph8.position=-4,0,0
 sph8.scale=1,1,1
 sph8.color=blue
 
 sph9=sphere
-sph9.position=8,4,4
+sph9.position=-4,4,4
 sph9.scale=1,1,1
 sph9.color=blue
 
 sph10=sphere
-sph10.position=8,4,0
+sph10.position=-4,4,0
 sph10.scale=1,1,1
 sph10.color=blue
 
 sph11=sphere
-sph11.position=8,0,4
+sph11.position=-4,0,4
 sph11.scale=1,1,1
 sph11.color=blue
+
+//third side
+sph13=sphere
+sph13.position=-4,-4,4
+sph13.scale=1,1,1
+sph13.color=blue
+
+sph14=sphere
+sph14.position=0,-4,0
+sph14.scale=1,1,1
+sph14.color=blue
+
+sph15=sphere
+sph15.position=-4,-4,0
+sph15.scale=1,1,1
+sph15.color=blue
+
+sph16=sphere
+sph16.position=0,-4,4
+sph16.scale=1,1,1
+sph16.color=blue
+
+//fourth side
+sph17=sphere
+sph17.position=4,-4,0
+sph17.scale=1,1,1
+sph17.color=blue
+
+sph18=sphere
+sph18.position=4,-4,4
+sph18.scale=1,1,1
+sph18.color=blue
+
+//belowz-axis side 1 left
+sph19=sphere
+sph19.position=-4,0,-4
+sph19.scale=1,1,1
+sph19.color=blue
+
+sph20=sphere
+sph20.position=0,-4,-4
+sph20.scale=1,1,1
+sph20.color=blue
+
+sph21=sphere
+sph21.position=0,0,-4
+sph21.scale=1,1,1
+sph21.color=blue
+
+sph22=sphere
+sph22.position=-4,-4,-4
+sph22.scale=1,1,1
+sph22.color=blue
+
+//below zaxis right
+sph23=sphere
+sph23.position=4,0,-4
+sph23.scale=1,1,1
+sph23.color=blue
+
+sph24=sphere
+sph24.position=4,-4,-4
+sph24.scale=1,1,1
+sph24.color=blue
+
+//side back left
+sph25=sphere
+sph25.position=-4,4,-4
+sph25.scale=1,1,1
+sph25.color=blue
+
+sph26=sphere
+sph26.position=0,4,-4
+sph26.scale=1,1,1
+sph26.color=blue
+
+sph27=sphere
+sph27.position=4,4,-4
+sph27.scale=1,1,1
+sph27.color=blue
+
+bcc1=sphere
+bcc1.position=2,2,2
+bcc1.scale=2,2,2
+bcc1.color=yellow
+
+bcc2=sphere
+bcc2.position=-2,2,2
+bcc2.scale=2,2,2
+bcc2.color=yellow
+
+bcc3=sphere
+bcc3.position=2,-2,2
+bcc3.scale=2,2,2
+bcc3.color=yellow
+
+bcc4=sphere
+bcc4.position=-2,-2,2
+bcc4.scale=2,2,2
+bcc4.color=yellow
+
+bcc11=sphere
+bcc11.position=2,2,-2
+bcc11.scale=2,2,2
+bcc11.color=yellow
+
+bcc21=sphere
+bcc21.position=-2,2,-2
+bcc21.scale=2,2,2
+bcc21.color=yellow
+
+bcc31=sphere
+bcc31.position=2,-2,-2
+bcc31.scale=2,2,2
+bcc31.color=yellow
+
+bcc41=sphere
+bcc41.position=-2,-2,-2
+bcc41.scale=2,2,2
+bcc41.color=yellow
+
+t=text
+t.position=0,0,6
+t.scale=0.1,0.1,0.1
+t.color=fuchsia
+t.text= Body Centered Cubic Structure
